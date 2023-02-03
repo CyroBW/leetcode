@@ -1,7 +1,7 @@
-/**
+/*
     Time: O(log(min(n, m)))
     Space: O(1)
-**/
+*/
 
 class Solution {
 public:
