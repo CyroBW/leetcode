@@ -1,10 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <assert.h>
-
-using namespace std;
-
 /*
     Time: O(n)
     Space: O(n)
@@ -25,11 +18,3 @@ public:
         return {};
     }
 };
-
-int main() {
-    vector<int> nums = {2,7,11,15};
-    int target = 9;
-    vector<int> ans = {0,1};
-    assert((new Solution())->twoSum(nums, target) == ans);
-    return 0;
-}
